@@ -1,7 +1,8 @@
 {
     "name": "Scripts",
     "references": [
-        "Unity-Weld"
+        "Unity-Weld",
+        "ugui-mvvm"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],
