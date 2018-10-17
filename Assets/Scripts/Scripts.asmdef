@@ -1,0 +1,10 @@
+{
+    "name": "Scripts",
+    "references": [
+        "Unity-Weld"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
