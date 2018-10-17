@@ -2,7 +2,8 @@
     "name": "Scripts",
     "references": [
         "Unity-Weld",
-        "ugui-mvvm"
+        "ugui-mvvm",
+        "DataBind"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],
