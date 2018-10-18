@@ -18,4 +18,13 @@
 # Variant1
 
 - When linked with INotifyPropertyChanged from ViewModel we can't modify models directly, only from ViewModel, and we need reference to it (-)
-- Also, with Unity-Weld we need valid model before Weld components Awake (-)
+
+# Variant2
+
+- Use thin ViewModel with backing to Model props/events
+- No limitations to what exactly we modify, model modification events fired in all cases (++)
+- More boilerplace code, but we can expose in VM only part of props, if required (-)
+
+# Both variants
+
+- With Unity-Weld we need valid model before Weld components Awake, can be solved with Script Execution Order (-)
