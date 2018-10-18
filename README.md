@@ -1,5 +1,9 @@
 # UnityDataBindingExample
 
+Experiments with MVVM in Unity3d. Tried several tools, best of it - Unity-Weld.
+Data binding leads to less code to process ui setup & update, but more boilerplate to support with events.
+Anyway, it looks usable in prototype scenarios, when we don't care about performance.
+
 ## Unity-Weld
 
 - https://github.com/Real-Serious-Games/Unity-Weld
