@@ -29,7 +29,19 @@ public class DataBindItemViewModel : MonoBehaviour, IItemModel {
 		}
 	}
 
-	ItemModel _state = new ItemModel("ItemName", 0);
+	public bool Active {
+		get {
+			return _state.Active;
+		}
+		set {
+			if ( _state.Active != value ) {
+				_state.Active = value;
+				OnPropertyChanged(nameof(Active), _state.Count);
+			}
+		}
+	}
+
+	ItemModel _state = new ItemModel("ItemName", 0, true);
 
 	DataBindContext _context;
 
@@ -37,6 +49,7 @@ public class DataBindItemViewModel : MonoBehaviour, IItemModel {
 		_context = GetComponent<DataBindContext>();
 		OnPropertyChanged(nameof(Name), _state.Name);
 		OnPropertyChanged(nameof(Count), _state.Count);
+		OnPropertyChanged(nameof(Active), _state.Active);
 	}
 
 	void OnPropertyChanged(string name, object value) {

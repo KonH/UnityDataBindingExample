@@ -16,4 +16,8 @@
 			_advanceTimer = 0.0f;
 		}
 	}
+
+	public void Switch() {
+		_model.Active = !_model.Active;
+	}
 }
