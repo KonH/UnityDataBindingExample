@@ -436,7 +436,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   viewAdapterTypeName: 
   viewAdapterOptions: {fileID: 0}
-  viewModelPropertyName: ItemViewModelWithNotify.Active
+  viewModelPropertyName: Variant1.ItemViewModelWithNotify.Active
   viewPropertyName: UnityEngine.UI.Image.enabled
 --- !u!1 &478880280
 GameObject:
@@ -527,7 +527,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   viewAdapterTypeName: UnityWeld.Binding.Adapters.IntToStringAdapter
   viewAdapterOptions: {fileID: 0}
-  viewModelPropertyName: ItemViewModelWithNotify.Count
+  viewModelPropertyName: Variant1.ItemViewModelWithNotify.Count
   viewPropertyName: UnityEngine.UI.Text.text
 --- !u!1 &484308200
 GameObject:
@@ -618,7 +618,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   viewAdapterTypeName: 
   viewAdapterOptions: {fileID: 0}
-  viewModelPropertyName: ItemViewModelWithNotify.Name
+  viewModelPropertyName: Variant1.ItemViewModelWithNotify.Name
   viewPropertyName: UnityEngine.UI.Text.text
 --- !u!1 &524610521
 GameObject:
@@ -1195,7 +1195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26990677ffff9664d853a81fcb765384, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewModelPropertyName: ItemViewModelWithNotify.Active
+  viewModelPropertyName: Variant1.ItemViewModelWithNotify.Active
   viewEventName: UnityEngine.UI.Toggle.onValueChanged
   viewPropertyName: UnityEngine.UI.Toggle.isOn
   viewAdapterTypeName: 
@@ -1300,7 +1300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26990677ffff9664d853a81fcb765384, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewModelPropertyName: ItemViewModelWithNotify.Name
+  viewModelPropertyName: Variant1.ItemViewModelWithNotify.Name
   viewEventName: UnityEngine.UI.InputField.onValueChanged
   viewPropertyName: UnityEngine.UI.InputField.text
   viewAdapterTypeName: 
